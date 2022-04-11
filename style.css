@@ -1,0 +1,161 @@
+#img{
+    background-image: url(../project/images/header-background.png);
+    width: 1260px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+.symbol{
+        color: white;
+        padding: 15px;
+        padding-left: 90px;
+        padding-top: 30px;
+
+}
+header{
+        display: flex;
+        justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-1{
+    font-size: 110px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-family:italic;
+
+    
+}
+.p-2{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    padding-bottom: 20px;
+    position: absolute;
+     top:200px;
+     left: 230px;
+     }
+     .i-2{
+           width: 510px;
+           height: 50px;
+           position: relative;
+           bottom:-15px;
+           left:235px;
+           border: 2px solid grey;
+          border-radius: 8px;
+     }
+     .i-1{
+         width: 250px;
+         height: 50px;
+         position: relative;
+         bottom:-15px;
+         left:239px;
+          border: 2px solid grey;
+          border-radius: 8px;
+        
+     }
+     section{
+         background-color: white;
+         padding: 10px;
+     }
+     .dish{ display:flex;
+             flex-wrap: wrap;
+             padding: 10px;
+      
+     }
+     .menu{
+             padding: 10px;
+     }
+     .nav{
+         padding: 20px;
+         padding-right: 30px;
+     }
+     .card{
+       border: 2px solid grey;
+          border-radius: 8px 8px 10px 8px;
+     }
+     li:hover{
+          color: blue;
+     }
+     @media only screen and (max-width:700px) {
+        .img{
+               width:300px;
+               height: 50px;
+
+        }
+       .p-1 img{
+                   width: 180px;
+                   height: 50px;
+                    padding-right: 10px;
+                    position: relative;
+                    right: 350px;
+                    bottom:30px;
+                    
+       }
+       .p-2{
+             font-size:25px;
+             padding-bottom: 10px;
+             
+             margin-left: -150px;
+             
+             
+       }
+       .i-2{
+           width: 280px;
+           height: 35px;
+           position: relative;
+           bottom:-15px;
+           left:15px;
+           right: 10px;
+           border: 2px solid grey;
+          border-radius: 8px;
+     }
+     .i-1{
+         width: 175px;
+         height: 35px;
+         position: relative;
+          left:20px;
+          border: 2px solid grey;
+          border-radius: 8px;
+        
+
+     }
+      li{
+            
+              position: relative;
+              right: 750px;
+     }
+     ul{
+         padding: 0px;
+     }
+     .symbol{
+         position: relative;
+         right:60px;
+     }
+     .pic{
+           width:190px;
+           height:100 px;
+           
+     }
+     #list{
+          display: none;
+          
+     }
+     #sy{
+          position: relative;
+          right: 600px;
+          color:pink;
+          width: 200px;
+          height: 100px;
+     }
+     
+   }
